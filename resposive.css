@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+  .wrapper {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .wrapper .top,
+  .wrapper .bottom1,
+  .wrapper .bottom2 {
+    max-width: 25rem;
+    min-height: 18rem;
+  }
+  .wrapper .top,
+  .wrapper .bottom1 {
+    padding: 2rem;
+  }
+
+  .wrapper .top {
+    gap: 1.5rem;
+    border-radius: 0.7rem 0.7rem 0 0;
+  }
+  .wrapper .bottom1 {
+    border-radius: 0;
+  }
+  .wrapper .bottom2 {
+    border-radius: 0 0 0.7rem 0.7rem;
+  }
+}
